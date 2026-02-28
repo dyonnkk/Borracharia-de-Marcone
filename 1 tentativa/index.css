@@ -1,0 +1,10 @@
+body {
+color: white;
+background-color:black;
+font-family: comicsansms;
+}
+ul {display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    padding: 20px;}
