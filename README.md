@@ -54,26 +54,31 @@ Instale o Python e o módulo venv:
 sudo apt update
 sudo apt install python3 python3-venv python3-pip -y
 `` 
+
 Criar o ambiente virtual:
 
 ``
 python3 -m venv .venv
 `` 
+
 Ativar o ambiente:
 
 ``
 source venv/bin/activate
 `` 
+
 Após ativar, o terminal ficará assim:
 
 ``
 (venv) usuario@maquina:~/projeto$
 `` 
+
 Desativar o ambiente:
 
 ``
 deactivate
 `` 
+
 ## Para sistemas Windows
 
 # Pré-requisitos
@@ -88,6 +93,7 @@ No Prompt de Comando (CMD) ou PowerShell:
 ``
 python -m venv .venv
 `` 
+
 # Ativar o ambiente
 
 CMD:
@@ -95,11 +101,13 @@ CMD:
 ``
 venv\Scripts\activate
 `` 
+
 PowerShell:
 
 ``
 venv\Scripts\Activate.ps1
 `` 
+
 Caso dê erro de permissão no PowerShell:
 
 ``
@@ -120,6 +128,7 @@ Instalar Python via Homebrew (recomendado):
 ``
 brew install python
 `` 
+
 Ou baixar direto do Python.
 
 # Criar ambiente vitual
@@ -127,6 +136,7 @@ Ou baixar direto do Python.
 ``
 python3 -m venv .venv
 `` 
+
 # Ativar
 
 ``
@@ -145,39 +155,47 @@ Com o ambiente ativado:
 ``
 pip install django
 ``
+
 Instalar dependências existentes:
 
 ``
 pip install -r requirements/dev.txt
 ``
+
 ## Como Executar o Projeto
 
 # Clonar o repositório
+
 ``
 git clone <repo-url>
 ``
 
 # Acessar diretório
+
 ``
 cd projeto
 ``
 
 # Aplicar migrações
+
 ``
 python manage.py migrate
 ``
 
 # Criar superusuário
+
 ``
 python manage.py createsuperuser
 ``
 
 # Criar o arquivo das variáveis de ambiente
+
 ``
 cp .env-exemple .env
 ``
 
 # Inicializa o servidor
+
 ``
 python manage.py runserver
 ``
