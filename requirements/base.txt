@@ -1,0 +1,17 @@
+# Core Django
+Django>=5.0,<6.0
+
+# Banco de Dados
+psycopg2-binary>=2.9
+
+# Segurança e Configuração
+python-decouple>=3.8
+django-cors-headers>=4.3
+
+# Utilitários
+Pillow>=10.0
+requests>=2.31
+
+# Cache (Opcional)
+redis>=5.0
+django-redis>=5.4

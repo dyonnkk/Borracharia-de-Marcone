@@ -1,0 +1,18 @@
+-r base.txt
+
+# Desenvolvimento
+ipython>=8.0
+django-extensions>=3.2
+pip-tools>=7.5
+
+# Debug
+django-debug-toolbar>=4.3
+
+# Testes
+pytest>=8.0
+pytest-django>=4.8
+
+# Lint / Qualidade de código
+flake8>=7.0
+black>=24.0
+isort>=5.13

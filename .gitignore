@@ -1,0 +1,107 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Distribuição / build
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ambiente Virtual
+
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Variáveis de Ambiente
+
+.env
+.env.*
+*.env
+
+# Banco de Dados
+
+db.sqlite3
+*.sqlite3
+
+# Logs
+
+*.log
+logs/
+
+# Django
+
+*.pot
+*.pyc
+local_settings.py
+media/
+
+# Arquivos estáticos coletados
+
+staticfiles/
+
+# Docker
+
+docker-compose.override.yml
+
+# IDEs e Editores
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Sublime
+
+*.sublime-project
+*.sublime-workspace
+
+# Sistema Operacional
+
+# Linux
+
+*~
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+desktop.ini
+
+# Node (caso use frontend)
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage / Testes
+
+htmlcov/
+.coverage
+.coverage.*
+.cache
+pytest_cache/
+
+# Segurança
+
+*.pem
+*.key
+*.crt
+
+# Arquivos temporários
+
+tmp/
+temp/
